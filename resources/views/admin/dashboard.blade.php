@@ -5,31 +5,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Forbit - Pengumpulan Tugas Tepat Waktu</title>
-  <link rel="icon" href="./assets/admin/img/logo.jpg">
+  <link rel="icon" href="{{asset('./assets/admin/img/logo.jpg')}}">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    href="{{asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback')}}">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../assets/admin/css/all.min.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/all.min.css')}}">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="{{asset('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')}}">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="../assets/admin/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/tempusdominus-bootstrap-4.min.css')}}">
   <!-- iCheck -->
-  <link rel="stylesheet" href="../assets/admin/css/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/icheck-bootstrap.min.css')}}">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="../assets/admin/css/jqvmap.min.css">
-  <link rel="stylesheet" href="../assets/admin/css/fullcalendar/main.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="../assets/admin/css/adminlte.min.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/jqvmap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/fullcalendar/main.css')}}">
+  <!-- Theme style --> 
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/adminlte.min.css')}}">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="../assets/admin/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/OverlayScrollbars.min.css')}}">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="../assets/admin/css/daterangepicker.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/daterangepicker.css')}}">
   <!-- summernote -->
-  <link rel="stylesheet" href="../assets/admin/css/summernote-bs4.min.css">
+  <link rel="stylesheet" href="{{asset('../assets/admin/css/summernote-bs4.min.css')}}">
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css')}}">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -215,39 +215,39 @@
   <!-- ./wrapper -->
 
   <!-- jQuery -->
-  <script src="../assets/admin/js/jquery.min.js"></script>
+  <script src="{{asset('../assets/admin/js/jquery.min.js')}}"></script>
   <!-- jQuery UI 1.11.4 -->
-  <script src="../assets/admin/js/jquery-ui.min.js"></script>
+  <script src="{{asset('../assets/admin/js/jquery-ui.min.js')}}"></script>
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
   <script>
     $.widget.bridge('uibutton', $.ui.button)
   </script>
   <!-- Bootstrap 4 -->
-  <script src="../assets/admin/js/bootstrap.bundle.min.js"></script>
+  <script src="{{asset('../assets/admin/js/bootstrap.bundle.min.js')}}"></script>
   <!-- ChartJS -->
-  <script src="../assets/admin/js/Chart.min.js"></script>
+  <script src="{{asset('../assets/admin/js/Chart.min.js')}}"></script>
   <!-- Sparkline -->
-  <script src="../assets/admin/js/sparkline.js"></script>
+  <script src="{{asset('../assets/admin/js/sparkline.js')}}"></script>
   <!-- JQVMap -->
-  <script src="../assets/admin/js/jquery.vmap.min.js"></script>
-  <script src="../assets/admin/js/jquery.vmap.usa.js"></script>
+  <script src="{{asset('../assets/admin/js/jquery.vmap.min.js')}}"></script>
+  <script src="{{asset('../assets/admin/js/jquery.vmap.usa.js')}}"></script>
   <!-- jQuery Knob Chart -->
-  <script src="../assets/admin/js/jquery.knob.min.js"></script>
+  <script src="{{asset('../assets/admin/js/jquery.knob.min.js')}}"></script>
   <!-- daterangepicker -->
-  <script src="../assets/admin/js/moment.min.js"></script>
-  <script src="../assets/admin/js/daterangepicker.js"></script>
+  <script src="{{asset('../assets/admin/js/moment.min.js')}}"></script>
+  <script src="{{asset('../assets/admin/js/daterangepicker.js')}}"></script>
   <!-- Tempusdominus Bootstrap 4 -->
-  <script src="../assets/admin/js/tempusdominus-bootstrap-4.min.js"></script>
+  <script src="{{asset('../assets/admin/js/tempusdominus-bootstrap-4.min.js')}}"></script>
   <!-- Summernote -->
-  <script src="../assets/admin/js/summernote-bs4.min.js"></script>
+  <script src="{{asset('../assets/admin/js/summernote-bs4.min.js')}}"></script>
   <!-- overlayScrollbars -->
-  <script src="../assets/admin/js/jquery.overlayScrollbars.min.js"></script>
+  <script src="{{asset('../assets/admin/js/jquery.overlayScrollbars.min.js')}}"></script>
   <!-- AdminLTE App -->
-  <script src="../assets/admin/js/adminlte.js"></script>
+  <script src="{{asset('../assets/admin/js/adminlte.js')}}"></script>
   <!-- AdminLTE for demo purposes -->
-  <script src="../assets/admin/js/demo.js"></script>
+  <script src="{{asset('../assets/admin/js/demo.js')}}"></script>
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <script src="../assets/admin/js/dashboard.js"></script>
+  <script src="{{asset('../assets/admin/js/dashboard.js')}}"></script>
 </body>
 
 </html>
