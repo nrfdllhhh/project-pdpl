@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
+    Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
     // Schedule Routes
     Route::get('/schedule', [ScheduleController::class, 'index'])->name('schedule');
     Route::get('/schedule/{id}', [ScheduleController::class, 'show'])->name('jadwal.show');
@@ -34,6 +34,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/', [LandingPageController::class, 'index']);
+Route::get('/', [LandingController::class, 'index']);
+
 
 require __DIR__ . '/auth.php';

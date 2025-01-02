@@ -21,6 +21,8 @@
           </div>
         @endif
         <div class="container-fluid">
+
+
             <!-- Konten Jadwal -->
             <div class="card mt-3">
                 <div class="card-header text-white" style="background: linear-gradient(to right, #770210, #DD041E);">
@@ -28,6 +30,7 @@
                 </div>
 
                 <div class="card-body">
+
                     <!-- Table inside the card body -->
                     <table class="table table-bordered">
                         <thead>
