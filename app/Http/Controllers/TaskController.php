@@ -13,7 +13,7 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $list_tugas = Task::all();
+        $list_tugas = Task::where('id_user', auth()->id())->get();
         return view('admin.scheduleTask', compact('list_tugas'));
     }
 
